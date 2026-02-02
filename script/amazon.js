@@ -1,12 +1,4 @@
-// const products=[{
-//    image:"images/products/countertop-blender-64-oz.jpg",
-//    name: "Straw Lifeguard Sun Hat",
-//    rating:{
-//     stars: "images/ratings/rating-35.png",
-//     count: 87
-//    },
-//    price: 1090
-// }]
+
 
 import {products} from '../script/products.js';
 import {cart,addToCart,saveToStorage} from '../script/cart.js';
@@ -81,4 +73,5 @@ document.querySelectorAll('.add').forEach((button)=>{
        msg.classList.remove('show');
      },2000);
   });
+
 });
