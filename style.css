@@ -1,0 +1,39 @@
+*{
+  margin:none;
+  font-family:'poppins',sans-serif;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  height:30px;
+}
+.item-selected{
+  font-size: 20px;
+}
+.item-selected span{
+  color:blue;
+}
+
+.main{
+  padding: 40px;
+}
+.main-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.container{
+  display: flex;
+}
+.order-summary{
+  border:1px solid black;
+}
+.product-details{
+  display: flex;
+}
+.image{
+  height:100px;
+}
